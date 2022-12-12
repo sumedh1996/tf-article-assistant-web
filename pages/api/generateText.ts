@@ -7,8 +7,8 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 const basePromptPrefix =
-  "Write me a blog post in the style of Paul Graham with the title below. Please make sure the blog post goes in-depth on the topic and shows that the writer did their research.\n";
-const finalPromptPrefix = "The Pros and Cons of Large Language Models:\n";
+  "List me new startup ideas with thought process of stevejobs and gary v\n";
+const finalPromptPrefix = "Best startup idea in creator economy:\n";
 
 const generateAction = async (req, res) => {
   // Run first prompt
